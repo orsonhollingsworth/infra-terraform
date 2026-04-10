@@ -1,0 +1,35 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-01-01T12:00:00Z",
+  "service": "infra-terraform",
+  "version": "1.2.3",
+  "dependencies": {
+    "terraform": {
+      "status": "healthy",
+      "version": "1.6.3"
+    },
+    "aws": {
+      "status": "healthy",
+      "region": "us-west-2"
+    },
+    "git": {
+      "status": "healthy",
+      "version": "2.43.0"
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.30,
+    "disk_space_available": 0.75
+  },
+  "build_info": {
+    "build_number": "12345",
+    "commit_hash": "abcdef1234567890",
+    "build_date": "2023-12-31T23:59:59Z"
+  },
+  "metadata": {
+    "environment": "production",
+    "region": "us-west-2",
+    "data_center": "aws-us-west-2a"
+  }
+}
